@@ -170,3 +170,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 /support_scripts/captured_pngs
+support_scripts/yolo11l.pt
