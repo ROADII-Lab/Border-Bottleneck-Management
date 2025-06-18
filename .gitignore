@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 /support_scripts/captured_pngs
 support_scripts/yolo11l.pt
+*.avi
+*.pt
