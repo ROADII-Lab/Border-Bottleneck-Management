@@ -102,7 +102,8 @@ When you copy or adapt from this code, please include the original URL you copie
 
 - Billy Chupp (Volpe), William.Chupp@dot.gov
 - Eric Englin (Volpe), Eric.Englin@dot.gov
-- Juwon Drake (Volpe), Juwon.Drake@dot.gov
+- Nineveh O'Connell (Volpe), Nineveh.OConnell@dot.gov
+- Joseph Lynch (Volpe), Joseph.Lynch@dot.gov
 
 This project is funded by the U.S. DOT, ITS JPO under IAA HWE3A122. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the ITS JPO.
 
