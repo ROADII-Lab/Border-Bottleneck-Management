@@ -39,8 +39,14 @@ For more information, visit ITS JPO's website [here](https://www.its.dot.gov/).
 
 - **Length of the project:** October 2024 - July 2025.
 
+**Paso Del Norte overview and video feeds:**
   ![image](img/PDN_overview.png)
 
+
+<br>
+
+
+**Bridge of the Americas overview and video feeds:**
   ![image](img/BOTA_overview.png)
 
 # 2. Prerequisites
