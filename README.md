@@ -13,7 +13,6 @@
 9. Acknowledgements
 10. README Version History
 
-(UPDATE OUTLINE ONCE README IS FINALIZED @REMI)
 # 1. Project Description
 
 ### ROADII Background
@@ -32,14 +31,13 @@ For more information, visit ITS JPO's website [here](https://www.its.dot.gov/).
 
 ### ROADII Use Case - Border Wait Times
 
-- **Full Title:** “Estimating Border Wait Times Using Real-Time Video Feeds” 
-- **Purpose and goals of the project:** El Paso's six Ports of Entry (POEs) can experience major congestion, which impacts freight and personal vehicle travel. Wait times are provided on public websites but determined anecdotally. This prototpe will evaluate computer vision and LLMs that leverage video feeds. The main goal is to generate real-time traveler information on the border crossings to keep stakeholders informed about changing conditions. A secondary goal is to inform long-term management strategies at each of the border crossings, such as staffing and pricing for vehicles.
+- **Full Title:** “Estimating Border Waiting and Crossing Times Using Real-Time Video Feeds” 
+- **Purpose and goals of the project:** El Paso's six Ports of Entry (POEs) can experience major congestion, which impacts freight and personal vehicle travel. Wait times are provided on public websites but are not as accurate on lane-level wait time estimates. The border waiting and crossing times estimation prototype leverages video cameras deployed at the Paso Del Norte (PDN) and Bridge of the Americas (BOTA) borders. Due to the location of the cameras, the PDN border is placed to estimate crossing time, which is defined as the time from the booth on the Mexico side of the border through the time to reach the booth on the U.S. side. The BOTA cameras are placed at a greater distance from the booths, so these estimate the congestion levels leading up to the booth.
+
+- **Purpose of the source code and how it relates to the overall goals of the project:** This code will employ use YOLOv11's object detection and tracking vehicles across video feeds. 
 
 
-- **Purpose of the source code and how it relates to the overall goals of the project:** This code will employ two methods to pull video feeds from existing links then generate wait time estimates using computer vision and LLM methodologies. 
-
-
-- **Length of the project:** The code base is currently in a stable state. The ROADII Team may push updates irregularly as new data become available that might be used to update the model
+- **Length of the project:** October 2024 - July 2025. 
 
 # 2. Prerequisites
 
@@ -49,19 +47,28 @@ Requires:
 
 # 3. Usage
 
-This will be updated as the prototype is developed. 
+## YOLOv11 Object Detection
+The model uses Ultralytics YOLOv11 for object detection and providing unique identifiers to vehicles across video feeds. Some tutorials on this process are available here and here. 
+
+## Paso Del Norte Crossing Time Estimation
+
+- Nineveh to add any usage notes specific to PDN
+
+## Bridge of the Americas Speed Estimation
+
+- Joe to add any usage notes specific to PDN
 
 # 4. Additional Notes
 
 
 
-**Known Issues:** None identified, this use case is still in development and future updates will be tested sufficiently before being released. 
+**Known Issues:** None identified. 
 
 
 
 # 5. Version History and Retention
 
-**Status:** This project is in active development phase. 
+**Status:** This project is complete. The code may be used for future video analytics work. 
 
 **Release Frequency:** This project will be updated when there are stable developments.  
 
@@ -80,10 +87,6 @@ Please read [Contributing.md](https://github.com/ITSJPO-TRIMS/R29-MobilityTraffi
 
 # 8. Contact Information
 
-Contact Name: Billy Chupp
-
-Contact Information: William.Chupp@dot.gov
-
 Contact Name: Eric Englin
 
 Contact Information: Eric.Englin@dot.gov
@@ -100,16 +103,17 @@ When you copy or adapt from this code, please include the original URL you copie
 
 # 9. Acknowledgements
 
-- Billy Chupp (Volpe), William.Chupp@dot.gov
-- Eric Englin (Volpe), Eric.Englin@dot.gov
 - Nineveh O'Connell (Volpe), Nineveh.OConnell@dot.gov
 - Joseph Lynch (Volpe), Joseph.Lynch@dot.gov
+- Billy Chupp (Volpe), William.Chupp@dot.gov
+- Eric Englin (Volpe), Eric.Englin@dot.gov
 
 This project is funded by the U.S. DOT, ITS JPO under IAA HWE3A122. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the ITS JPO.
 
 ### Languages
 
--Python [100.0%](https://github.com/ITSJPO-TRIMS/R29-MobilityTrafficCounts/search?l=python)
+- Python
+- R (for data visualization)
 
 ### About
 
