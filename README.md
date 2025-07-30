@@ -58,14 +58,14 @@ Requires:
 # 3. Usage
 
 ## YOLOv11 Object Detection
-The model uses Ultralytics YOLOv11 for object detection and providing unique identifiers to vehicles across video feeds. Some tutorials on this process are available here and here. 
+The model uses Ultralytics YOLOv11 for object detection and providing unique identifiers to vehicles across video feeds. Some tutorials on this process are available [here](https://www.youtube.com/watch?v=o8S28sLOUU8&t=73s) and here. 
 
 ## Paso Del Norte Crossing Time Estimation
 
   ![image](img/PDN_YOLO.png)
 
 
-- Nineveh to add any usage notes specific to PDN
+The Paso Del Norte speed estimation method is implemented in the 'pdn_yt_feed_cv.ipynb' jupyter notebook. The script outputs a .csv file with metrics of the location and timestamps (relative to the beginning of hte computer vision analysis) of each id. That file is ingested in the 'pdn_cv_output_analysis.R' file to compute final metrics and some exploratory data visualization.
 
 ## Bridge of the Americas Speed Estimation
 
