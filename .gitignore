@@ -173,3 +173,5 @@ cython_debug/
 support_scripts/yolo11l.pt
 *.avi
 *.pt
+/paso_del_norte_cv/captured_coords
+/paso_del_norte_cv/captured_pngs
